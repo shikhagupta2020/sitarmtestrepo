@@ -17,9 +17,8 @@ steps:
     subscriptionId: 'c519682f-6b76-447e-b894-65a425a7f8d1'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'AzureRmPipeline-rg'
-    location: 'Central India'
-    templateLocation: 'Linked artifact'
-    csmFile: 'sitarmtestrepo/sittemplate.json'
+    location: 'Central US'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/shikhagupta2020/sitarmtestrepo/master/sittemplate.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'Deployment1'
-- script: |
+    deploymentName: 'deployment4'
