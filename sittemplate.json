@@ -4,7 +4,7 @@
     "parameters": {
         
         "service_APIM_instance_name": {
-            "defaultValue": "TEST-ARM-API1457",
+            "defaultValue": "SAMPLE-ARM-API",
             "type": "String"
         }
     },
@@ -26,7 +26,7 @@
                 "hostnameConfigurations": [
                     {
                         "type": "Proxy",
-                        "hostName": "test-arm-api1457.azure-api.net",
+                        "hostName": "sample-arm-api.azure-api.net",
                         "negotiateClientCertificate": false,
                         "defaultSslBinding": true
                     }
